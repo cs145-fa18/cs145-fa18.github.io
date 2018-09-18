@@ -67,12 +67,11 @@ h1, h2, h3 {
 
 .instructors td {
   vertical-align: top;
-  font-size: 14px
 }
 
 .instructors td > div {
   float: left;
-  min-width: 120px;
+  min-width: 135px;
   margin-bottom: 24px;
 }
 
