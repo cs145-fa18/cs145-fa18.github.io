@@ -30,22 +30,58 @@
         <h3 class="subheader">Set up your GCP credits</h3>
         <p>Dear Students,</p>
         <p>
-          Here is the <a href="https://google.secure.force.com/GCPEDU/?cid=xSnCvYx1dzvzeuWAITUEbqnse9iliFpxiRAAQhRC0fqg4jsGCvEuaO415dJNCj5B/">URL</a> you will need to access in order to request a Google Cloud Platform coupon. You will be asked to provide your school email address and name. An email will be sent to you to confirm these details before a coupon is sent to you.
+          Google has provided all students in this class with $50 of credit for BigQuery. This should be more than ample to finish the course, possibly even with credit remaining.
         </p>
         <p>
-          You will be asked for a name and email address, which needs to match the domain. A confirmation email will be sent to you with a coupon code.
+          Credit policies & information are as follows:
+        </p>
+        <ul>
+          <li>
+            $50 of credit is enough to query 10 Terabytes of data ($5/TB). This is a very large amount of data for the purposes of this class. You would need to run 1000 queries on 10GB in order to exhaust this, for example.
+          </li>
+          <li>
+            Google provides all users of bigquery an additional 1TB free / month. You may find that you don’t even use 1TB over the course of the first two projects.
+          </li>
+          <li>
+            You are responsible for your credit. If you are in danger of running out (eg, you are running $2 queries) please contact the TAs. We are able to help students before they use up their credits, but there’s not much we can do after you’ve used them up.
+          </li>
+          <li>
+            Google charges by # of rows * # of columns * size of column for each query. The easiest and best way to keep the amount of data you handle down is to use only the columns you need for your query. It can be a little verbose at times, but if you stick to the practice of writing SELECT column1, column2…, you will save lots of credits over the course of the quarter.
+          </li>
+          <li>
+            Corollary: AVOID USING SELECT *. Google will charge the query as scanning the whole table, even if it doesn’t.
+          </li>
+        </ul>
+        <p>
+          In order to get your bigquery credits, you will need to:
+        </p>
+        <li>
+          Go to this <a href="https://google.secure.force.com/GCPEDU/?cid=xSnCvYx1dzvzeuWAITUEbqnse9iliFpxiRAAQhRC0fqg4jsGCvEuaO415dJNCj5B">link</a>:
+        </li>
+        <li>
+          Enter your name and Stanford email address
+        </li>
+        <li>
+          A verification link should be sent to your stanford email address
+        </li>
+        <li>
+          After clicking the link, you should see a page which says “Email Verified”
+        </li>
+        <li>
+          Receive the coupon in the email:
+        </li>
+        <li>
+          Go to https://console.cloud.google.com/education
+        </li>
+        <li>
+          Verify that your personal google account is being used. If you don’t have one, you may need to set one up in order for billing to work correctly.  
+        </li>
+        <p>
+          Enter your code in the box and click accept. This should add the credits to your billing info in https://console.cloud.google.com/billing. 
         </p>
         <p>
-          You can request a coupon from the URL and redeem it until: 1/21/2019
-        </p>
-        <p>
-          Coupon valid through: 9/21/2019
-        </p>
-        <p>
-          You can only request ONE code per unique email address.
-        </p>
-        <p>
-          <b>IMPORTANT:</b> Apply it to your Gmail/Google Apps profile. (Look at the top Right corner and choose your Gmail profile). NOT your stanford profile.
+          For more details, please refer to this <a href="https://piazza.com/class/jm9glxpipjv609?cid=30">Piazza post</a>.
+        </li>
       </p>
     </div>
   </section>
